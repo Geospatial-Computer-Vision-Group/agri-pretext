@@ -4,11 +4,11 @@
 [![AAAI 2026](https://img.shields.io/badge/AAAI%202026-Social%20Impact%20Track-blue.svg)](https://aaai.org/conference/aaai/aaai-26/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Official PyTorch implementation of **Time2Agri**, a self-supervised learning framework for agricultural monitoring using satellite imagery. This work has been accepted at **AAAI 2026 Social Impact Track**.
+Official PyTorch implementation of **Time2Agri**, a self-supervised learning framework for agricultural representation learning using satellite imagery. This work has been accepted at **AAAI 2026 Social Impact Track**.
 
 ## Overview
 
-Time2Agri introduces agriculture-focused temporal pretext tasks that capture seasonal cycles and temporal patterns unique to farming, addressing the limitations of existing remote sensing foundation models that neglect agricultural temporal dynamics.
+Time2Agri introduces agriculture-focused temporal pretext tasks that capture seasonal cycles and temporal patterns unique to agricultural landscapes, addressing the limitations of existing remote sensing foundation models that neglect agricultural temporal dynamics.
 
 ### Key Contributions
 
@@ -16,7 +16,7 @@ We propose three novel temporal pretext tasks specifically designed for agricult
 
 1. **Time-Difference Prediction (TD)** - Captures temporal changes between observations to model agricultural dynamics
 2. **Temporal Frequency Prediction (FP)** - Analyzes cyclical patterns in agricultural data using frequency-domain representations
-3. **Future-Frame Prediction (FF)** - Forecasts upcoming satellite imagery to learn temporal dependencies
+3. **Future-Frame Prediction (FF)** - Forecasts upcoming satellite imagery to learn causal temporal dependencies
 
 ### Performance Highlights
 
@@ -214,7 +214,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-This research addresses critical challenges in agricultural monitoring using satellite imagery, with applications in crop mapping, yield prediction, and field delineation.
+This research addresses critical challenges in agricultural monitoring using self-supervised learning on satellite imagery, with applications in crop mapping, yield prediction, and field delineation.
 
 ## Contact
 
