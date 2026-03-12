@@ -57,6 +57,10 @@ The code for training regional models is contained in the [regional_ssl](regiona
 cd regional_ssl
 ```
 
+The `regional_ssl/assets/chips_with_s2_timestamps.geojson` file contains the chip geometries alongside the Sentinel-2 acquisition timestamps needed to reproduce the training data, and the `download_regional_data.py` script is available for downloading the regional dataset from Microsoft Planetary Computer.
+
+
+
 ### Coming Soon
 We are actively working on releasing the following components:
 - **National-scale pretraining code** - Training pipeline for larger geographic coverage
